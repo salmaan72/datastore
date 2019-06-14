@@ -1,0 +1,27 @@
+.optioncontainer{
+  display: flex;
+  margin-bottom: 2.0rem;
+  width:80%;
+  border: 0.1 rem solid #12d3cf;
+  background-color: #fcf9ec;
+}
+.optioncontainer:hover
+{
+  cursor: pointer;
+  box-shadow: 0 0.2rem 1.3rem 0 #33313b;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+.option
+{
+  padding: 2.0rem 2.5rem;
+  background:#032d3c;
+  color: #fcf9ec;
+  font-size: 1.0rem;
+}
+.option-label
+{
+  padding: 2.0rem 1.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
