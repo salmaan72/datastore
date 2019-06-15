@@ -1,0 +1,24 @@
+{
+  "name": "datastore",
+  "version": "1.0.0",
+  "description": "Datastore javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmaan72/datastore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salmaan72/datastore/issues"
+  },
+  "homepage": "https://github.com/salmaan72/datastore#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.19.1"
+  }
+}
